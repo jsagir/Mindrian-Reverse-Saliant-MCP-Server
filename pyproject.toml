@@ -1,0 +1,54 @@
+[project]
+name = "mindrian-reverse-saliant"
+version = "1.0.0"
+description = "Discover cross-domain innovation opportunities through dual similarity analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Mindrian Labs", email = "contact@mindrian.com"}
+]
+keywords = [
+    "mcp",
+    "reverse-salients",
+    "innovation-discovery",
+    "lsa",
+    "bert",
+    "cross-domain",
+    "sequential-thinking"
+]
+
+dependencies = [
+    "fastmcp>=2.10.0",
+    "httpx>=0.25.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "nltk>=3.8.0",
+    "scikit-learn>=1.3.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "matplotlib>=3.7.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/mindrian/reverse-saliant-mcp"
+Documentation = "https://github.com/mindrian/reverse-saliant-mcp/blob/main/README.md"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.fastmcp]
+name = "Mindrian Reverse Saliant"
+version = "1.0.0"
+description = "Discover breakthrough innovations through dual similarity analysis"
+
+[tool.fastmcp.server]
+transport = "stdio"
+features = [
+    "sequential_thinking",
+    "advanced_validation",
+    "multi_source_collection"
+]
